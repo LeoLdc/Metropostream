@@ -1,0 +1,135 @@
+#nav{
+  width:99.5%;
+  height:60px;
+  margin-top: 0;
+  border:1px solid black;
+  background-color: #032958;
+  box-shadow: 5px 5px 2px;
+}
+#traitementTitre{
+  display: flex;
+  height:60px;
+  width: 500px;
+  align-items: center;
+  border-radius: 50%;
+}
+#best{
+  width:80%;
+  height:400px;
+  background-color: #032958;
+  border-radius: 3%;
+  border:1px solid black;
+  display: flex;
+  box-shadow: 5px 5px 2px;
+}
+#new{
+  width:80%;
+  height: 400px;
+  background-color: #032958;
+  border-radius: 3%;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+#mainAccueil{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#best1{
+  height:100%;
+  width:50%;
+  background-color: gray;
+  border-radius: 5%;
+}
+#best2{
+  height:100%;
+  width:50%;
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+#pageConnexion{
+  position: absolute;
+  margin-top: 0;
+  margin-right: 0;
+  width:350px;
+  height:500px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  left: 73.5%;
+  display:none;
+}
+a:hover{
+  color:white;
+  cursor: pointer;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    margin:auto;
+}
+.marginL{
+  margin-left: 15px;
+}
+.floatR{
+  float: right;
+}
+.borderR{
+  border-radius: 50%;
+}
+.connexion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:105px;
+  height:58px;
+  position: relative;
+  bottom: 60px;
+  border:1px dashed white;
+}
+.connexion:hover{
+    border:1px solid white;
+    cursor: pointer;
+}
+.connexion:hover #pageConnexion {
+  display: block;
+}
+.BGBlack{
+  background-color:#0C0C0D;
+}
+.colorW{
+  color: white;
+}
+.titre:hover{
+  opacity:0.5;
+}
+.BestBox{
+  background-color:  #032958;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cercle {
+  border-radius: 50%;
+  width: 50px;
+  height:50px;
+  background-color: white;
+  position: relative;
+  background-color:  #032958;
+  border: 2px dashed black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  opacity:0.6;
+}
+.cercle:hover{
+  background-color: gray;
+  border:2px solid black;
+  opacity:1;
+}
